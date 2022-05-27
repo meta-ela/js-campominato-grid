@@ -1,7 +1,15 @@
 :root {
     --bg-color: #7cffd2;
+
+    --cell-size: 40px;
 }
 
-body {
+main {
     background-color: var(--bg-color);
+}
+
+.grid_container .cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: 1px solid black;
 }
